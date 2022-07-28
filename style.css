@@ -291,10 +291,21 @@ nav.stroke ul li a:hover:after {
   opacity: 1;
 }
 
+
 .LoMejor{
     min-height: 75vh;
+    background-color: black;
+    color: white;
+    font-family: 'Cormorant SC';
+    display: flex;
+    margin : 110px auto;
+    width : 75%;
+    border-radius: 25px;
+    background-image: url(Un-Verano-Sin-Ti-Album-Cover.jpeg);
+    background-size: contain;
+    flex-direction: column;
+    padding : 40px;
 }
-
 .bottom{
     position : sticky;
     height : 100px;
@@ -304,11 +315,32 @@ nav.stroke ul li a:hover:after {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-
+    flex-direction: column; 
 }
+.top5Hits{
+   height : 50px;
+   display : flex;
+   width : 80%;
+   margin : 5px 0;
+   justify-content: space-between;
+   align-items: center;
+   background-color: gray;
+   border-radius: 15px;
+   flex-direction: row;
+   
+}
+.top5Hits img{
+    width: 43px;
+    margin:0 23px;
+  
+}
+.timeStamp{
+    margin : 0 23px;
+} 
+
 .icons{
     margin-top: 14px;
+    cursor : pointer;
 }
 
 #progressBar{
