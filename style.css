@@ -291,6 +291,30 @@ nav.stroke ul li a:hover:after {
   opacity: 1;
 }
 
+.LoMejor{
+    min-height: 75vh;
+}
+
+.bottom{
+    position : sticky;
+    height : 100px;
+    background-color: black;
+    color: white;
+    bottom : 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.icons{
+    margin-top: 14px;
+}
+
+#progressBar{
+    text-align: center;
+    width : 40vw;
+}
 
 
 
