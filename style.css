@@ -12,6 +12,14 @@ body {
     background-color: white;
 }
 
+.responsive {
+    width: 100%;
+    height: auto;
+    width: 200px;
+    height: 250px;
+    position: center;
+}
+
 #background-video {
     width: 110vw;
   height: 100vh;
@@ -27,7 +35,7 @@ body {
 @media (max-width: 750px) {
     #background-video { display: none; }
     body {
-   /* background: url("hero_pic.png"); */
+    background: url("badbunny_vid_YouTube.mp4"); 
       background-size: cover;
     }
 }
