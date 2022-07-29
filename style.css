@@ -293,7 +293,7 @@ nav.stroke ul li a:hover:after {
 
 
 .LoMejor{
-    min-height: 75vh;
+    min-height: 65vh;
     background-color: black;
     color: white;
     font-family: 'Cormorant SC';
@@ -301,10 +301,11 @@ nav.stroke ul li a:hover:after {
     margin : 110px auto;
     width : 75%;
     border-radius: 25px;
-    background-image: url(Un-Verano-Sin-Ti-Album-Cover.jpeg);
+    background-image: url(3f26c4ceeed73948eff37118e65d9c15.1000x403x1.jpg);
     background-size: contain;
     flex-direction: column;
     padding : 40px;
+    
 }
 .bottom{
     position : sticky;
@@ -318,10 +319,10 @@ nav.stroke ul li a:hover:after {
     flex-direction: column; 
 }
 .top5Hits{
-   height : 50px;
+   height : 65px;
    display : flex;
    width : 80%;
-   margin : 5px 0;
+   margin : 15px 0px;
    justify-content: space-between;
    align-items: center;
    background-color: gray;
@@ -348,6 +349,34 @@ nav.stroke ul li a:hover:after {
     width : 40vw;
 }
 
+.Discogrpahy{
+    display: flex;
+    justify-content: center;
+    
+}
+#UnVeranoSinTi{
+    margin : 20px;
+    border-radius: 15px;
+}
+
+#YHL{
+    margin : 20px;
+    border-radius: 15px;
+}
+#ElUltimoTourDelMundo{
+    margin : 20px;
+    border-radius: 15px;
+}
+
+#OasisAlbum{
+    margin : 20px;
+    border-radius: 15px; 
+}
+
+#X100pre-jpeg{
+    margin : 20px;
+    border-radius: 15px; 
+}
 
 
 /* Media In. */
