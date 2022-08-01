@@ -247,7 +247,6 @@ nav .icon-burger .line {
 }
 
 
-
 nav.stroke ul li a,
 nav.stroke ul li a {
   position: relative;
@@ -387,3 +386,111 @@ nav.stroke ul li a:hover:after {
 	  width: 100%;
 	}
   }
+
+
+/* bad_bunnies fan page */
+
+/* Forums */
+
+.forum-info{
+    padding: 20px;
+    font-size: 14px;
+   
+}
+
+.chart{
+    font-size:20px;
+    font-weight:"";
+}
+
+.container{
+    margin: 20px;
+    padding: 20px;
+}
+
+.subforum{
+    margin-top:20px;
+}
+
+.subforum-title{
+    background-color: rgba(0, 0, 0, 0.579);
+    padding: 15px;
+    border-radius: 5px;
+    margin:4px;
+}
+
+.subforum-row{
+    display: grid;
+    grid-template-columns: 7% 60% 13% 20%;
+}
+
+.subforum-column{
+    padding: 10px;
+    margin:4px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.579);
+    color: white;
+}
+
+.subforum-description *{
+    margin-block: 50px;
+    color: white;
+    
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subforum-icon i{
+    font-size: 45px;
+}
+
+.subforum-devider{
+    display: none;   
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.footerfanpage {
+    
+   margin-top: auto;
+   padding: 20px;
+    background-color: rgba(0, 0, 0, 0.57);
+    color: white;
+  
+
+}
+
+
+.footerfanpage a {
+    color: #F4F4F6;
+}
+
+.footerfanpage a:hover {
+    text-decoration: none;
+}
+
+.copyright {
+    font-size:small;
+    padding: 10px;
+}
+
+
+.body_badbunnies {
+    display:flex;
+    flex-direction: column;
+    min-height: 100%;
+    background: linear-gradient(217deg, rgba(30, 8, 110, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+html {
+    height:100%;
+}
+
