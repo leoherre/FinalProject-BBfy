@@ -291,6 +291,93 @@ nav.stroke ul li a:hover:after {
 }
 
 
+.LoMejor{
+    min-height: 65vh;
+    background-color: black;
+    color: white;
+    font-family: 'Cormorant SC';
+    display: flex;
+    margin : 110px auto;
+    width : 75%;
+    border-radius: 25px;
+    background-image: url(3f26c4ceeed73948eff37118e65d9c15.1000x403x1.jpg);
+    background-size: contain;
+    flex-direction: column;
+    padding : 40px;
+    
+}
+.bottom{
+    position : sticky;
+    height : 100px;
+    background-color: black;
+    color: white;
+    bottom : 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.top5Hits{
+   height : 65px;
+   display : flex;
+   width : 80%;
+   margin : 15px 0px;
+   justify-content: space-between;
+   align-items: center;
+   background-color: gray;
+   border-radius: 15px;
+   flex-direction: row;
+   
+}
+.top5Hits img{
+    width: 43px;
+    margin:0 23px;
+  
+}
+.timeStamp{
+    margin : 0 23px;
+} 
+
+.icons{
+    margin-top: 14px;
+    cursor : pointer;
+}
+
+#progressBar{
+    text-align: center;
+    width : 40vw;
+}
+
+.Discogrpahy{
+    display: flex;
+    justify-content: center;
+    
+}
+#UnVeranoSinTi{
+    margin : 20px;
+    border-radius: 15px;
+}
+
+#YHL{
+    margin : 20px;
+    border-radius: 15px;
+}
+#ElUltimoTourDelMundo{
+    margin : 20px;
+    border-radius: 15px;
+}
+
+#OasisAlbum{
+    margin : 20px;
+    border-radius: 15px; 
+}
+
+#X100pre-jpeg{
+    margin : 20px;
+    border-radius: 15px; 
+}
+
+
 /* Media In. */
 
 @media only screen and (max-width: 768px) {
