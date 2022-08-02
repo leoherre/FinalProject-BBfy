@@ -291,107 +291,65 @@ nav.stroke ul li a:hover:after {
 }
 
 
-.LoMejor{
-    min-height: 65vh;
-    background-color: black;
-    color: rgb(0, 0, 0);
-    font-family: 'Cormorant SC';
-    display:inline-block;
-    margin : 110px auto;
-    width : 900px;
-    border-radius: 25px;
-    background-image: url("back_image_music.png");
-    background-size: 1500px;
-    background-color: #000000da;
-    flex-direction: column;
-    padding : 40px;
-    
-}
-.bottom{
-    position : sticky;
-    height : 100px;
-    background-color: black;
-    color: white;
-    bottom : 0;
+.Master{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; 
 }
-.top5Hits{
-   height : 65px;
-   display : flex;
-   width : 80%;
-   margin : 15px 0px;
-   justify-content: space-between;
-   align-items: center;
-   background-color: rgb(181, 181, 181);
-   border-radius: 15px;
-   flex-direction: row;
-   padding: 30px;
-   font-weight: bold;
-}
-
-.top5Hits i {
-    padding: 40px;
-    font-size: 25px;
-
-}
-   
-
-.top5Hits img{
-    width: 55px;
-    
-  
-}
-.timeStamp{
-    margin : 0 23px;
-    padding: 30px;
-    font-size: 20px;
-} 
-
-.icons{
-    margin-top: 14px;
-    cursor : pointer;
-    
-}
-
-#progressBar{
-    text-align: center;
-    width : 40vw;
-}
-
-.Discogrpahy{
+.Trending-Space{
+    margin-top : 110px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color:purple;
+    border-radius: 15px;
+   
     
 }
-#UnVeranoSinTi{
-    margin : 20px;
+.Track1{
+    height: 70px;
+    width : 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    background-color: gray;
+    margin-top: 40px;
+   
+    
+    
+}
+
+.Track1 img{
+    border-radius: 15px;
+    height: 60px;
+}
+.Discogrpahy{
+    margin-top: 50px;
+    display :flex;
+    flex-direction: row;
+    flex-wrap : wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.Album1{
+    width : 25%;
+    background-color: salmon;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.Album1 img{
+    margin : 10px;
     border-radius: 15px;
 }
-
-#YHL{
-    margin : 20px;
-    border-radius: 15px;
-}
-#ElUltimoTourDelMundo{
-    margin : 20px;
-    border-radius: 15px;
-}
-
-#OasisAlbum{
-    margin : 20px;
-    border-radius: 15px; 
-}
-
-#X100pre-jpeg{
-    margin : 20px;
-    border-radius: 15px; 
-}
-
-
-
 
 /* Media In. */
 
