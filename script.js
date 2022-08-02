@@ -49,4 +49,19 @@ const APIController = (function(){
         return data.albums.items;
     }
     
+    return{
+        getToken(){
+            return getToken();
+        },
+        getAlbum(token){
+            return getAlbum(token);
+        },
+        getTrack(token){
+            return getTrack(token);
+        },
+        getTopTracks(token){
+            return getTopTracks;
+        }
+    }
 })();
+
