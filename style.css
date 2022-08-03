@@ -315,17 +315,19 @@ nav.stroke ul li a:hover:after {
     justify-content: space-between;
     align-items: center;
     border-radius: 15px;
-    background-color: gray;
+    background-color: plum;
     margin-top: 40px;
    
     
     
 }
 
+
 .Track1 img{
     border-radius: 15px;
     height: 60px;
 }
+
 .Discogrpahy{
     margin-top: 50px;
     display :flex;
@@ -333,6 +335,7 @@ nav.stroke ul li a:hover:after {
     flex-wrap : wrap;
     align-items: center;
     justify-content: center;
+    padding: 40px 40px;
 }
 
 .Album1{
@@ -349,6 +352,43 @@ nav.stroke ul li a:hover:after {
 .Album1 img{
     margin : 10px;
     border-radius: 15px;
+}
+
+#seeMore{
+
+    display: none;
+}
+#moreLessbutton{
+    background-color: plum; /* Green */
+  border: none;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+  padding: 15px 32px;
+  text-align: center;
+  color : white;
+  text-decoration: none;
+  
+  font-size: 16px;
+}
+@media only screen and (max-width : 768px){
+    .Album1 img{
+        max-width: 100%;
+        height: auto;
+    }
+    .Album1{
+        width : 80%;
+    }
+    .Track1{
+        width: 85%;
+        justify-content: center;
+    }
+    .Track1 img{
+       height: 0;
+    }
+    .record{
+        display: none;
+    }
 }
 
 /* Media In. */
