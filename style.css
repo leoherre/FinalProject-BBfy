@@ -9,7 +9,8 @@
 
 body {
     font-family: 'Cormorant SC';
-    
+    color: white;
+    font-size: 20px;
 }
 
 .responsive {
@@ -303,10 +304,17 @@ nav.stroke ul li a:hover:after {
     justify-content: center;
     align-items: center;
     width: 80%;
-    background-color:purple;
+    background-color:salmon;
     border-radius: 15px;
    
     
+}
+.Trending-Title{
+    font-size: 25px;
+}
+#TrendingTitle{
+    margin-top: 10px;
+    font-size: 35px;
 }
 .Track1{
     height: 70px;
@@ -335,6 +343,7 @@ nav.stroke ul li a:hover:after {
     flex-wrap : wrap;
     align-items: center;
     justify-content: center;
+    width: 100%;
     /* padding: 40px 40px; */
 }
 
@@ -346,12 +355,16 @@ nav.stroke ul li a:hover:after {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin: 40px;
+    
 }
 
 .Album1 img{
     margin : 10px;
     border-radius: 15px;
+}
+#number5{
+    margin-bottom: 20px;
 }
 
 #seeMore{
@@ -359,18 +372,24 @@ nav.stroke ul li a:hover:after {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    
+}
+
+.buttton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #moreLessbutton{
   background-color: plum; 
-  display: grid;
-  justify-content: center;
-  align-items: center;
+  margin: 40px;
   padding: 15px 32px;
   text-align: center;
   color : white;
   text-decoration: none;
-  
+  border-radius: 15px;
   font-size: 16px;
+  flex-direction: row;
 }
 @media only screen and (max-width : 768px){
     .Discogrpahy{
@@ -398,7 +417,6 @@ nav.stroke ul li a:hover:after {
         flex-direction: column;
         width: 100%;
     }
-    
 }
 
 /* Media In. */
