@@ -335,7 +335,7 @@ nav.stroke ul li a:hover:after {
     flex-wrap : wrap;
     align-items: center;
     justify-content: center;
-    padding: 40px 40px;
+    /* padding: 40px 40px; */
 }
 
 .Album1{
@@ -355,15 +355,16 @@ nav.stroke ul li a:hover:after {
 }
 
 #seeMore{
-
-    display: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 #moreLessbutton{
-    background-color: plum; /* Green */
-  border: none;
-  display: flex;
+  background-color: plum; 
+  display: grid;
   justify-content: center;
-    align-items: center;
+  align-items: center;
   padding: 15px 32px;
   text-align: center;
   color : white;
@@ -372,6 +373,9 @@ nav.stroke ul li a:hover:after {
   font-size: 16px;
 }
 @media only screen and (max-width : 768px){
+    .Discogrpahy{
+        flex-direction: column;
+    }
     .Album1 img{
         max-width: 100%;
         height: auto;
@@ -389,6 +393,12 @@ nav.stroke ul li a:hover:after {
     .record{
         display: none;
     }
+    #seeMore{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
 }
 
 /* Media In. */
