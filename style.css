@@ -449,8 +449,11 @@ nav.stroke ul li a:hover:after {
 
 .subforum-description *{
     margin-block: 50px;
-    color: white;
-    
+    color: rgb(255, 255, 255);
+}
+
+.subforum-description:hover {
+    opacity: 0.7;
 }
 
 .center{
@@ -495,6 +498,58 @@ a:link {
     padding: 10px;
 }
 
+.admin:hover {
+    opacity: 0.1;
+}
+
+.footer_title:hover {
+    opacity: 0.1;
+}
+
+.fa:hover {
+    opacity: 0.1;
+}
+
+.fab:hover {
+    opacity: 0.1;
+}
+
+.fa-facebook {
+  font-size: 33px;
+  color: white;
+  padding: 10px;
+}
+
+.fa-twitter {
+    font-size: 33px;
+  color: white;
+  padding: 10px;
+}
+
+.fa-instagram {
+font-size: 33px;
+  color: white;
+  padding: 10px;
+}
+
+.fa-snapchat-ghost {
+  font-size: 33px;
+  color: white;
+  padding: 10px;
+}
+
+.fa-youtube {
+  font-size: 33px;
+  color: white;
+  padding: 10px;
+}
+
+.fab .fa-tiktok {
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+
+}
 
 .body_badbunnies {
     display:flex;
